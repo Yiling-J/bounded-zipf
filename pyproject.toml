@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "bounded-zipf"
+version = "1.0.0"
+description = "a bounded zipf generator ported from Go"
+authors = ["Yiling-J <njjyl723@gmail.com>"]
+readme = "README"
+packages = [{include = "bounded_zipf"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
