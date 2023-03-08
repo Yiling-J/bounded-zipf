@@ -3,6 +3,11 @@ Bounded Zipf generator ported from Go:
 
 https://github.com/golang/go/blob/master/src/math/rand/zipf.go
 
+```
+pip install bounded-zipf
+```
+
+
 ```python
 from bounded_zipf import Zipf
 
